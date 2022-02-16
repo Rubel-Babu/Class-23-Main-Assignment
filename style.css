@@ -1,0 +1,212 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+li{
+    list-style: none;
+}
+
+img{
+    max-width: 100%;
+}
+/**** Start Header CSS *****/
+header{
+   background: #000;
+   display: flex;
+   padding: 10px 10%;
+   align-items: center;
+}
+header a{
+    flex-basis: 30%;   
+}
+header a img{
+    width: 100px;
+    position: relative;
+    margin-bottom: -5px;
+}
+header nav{
+    flex-basis: 50%;
+}
+header nav ul{
+    display: flex;
+    justify-content: space-between;   
+}
+header nav ul li{
+    position: relative;  
+}
+header nav ul li a{
+    color: #ffff;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 0 10px;
+    display: inline-block;
+}
+header nav ul li::after{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    background: #fff;
+    top: 115%;
+    left: 0;
+}
+/**** End Header CSS *****/
+
+/**** Start Main Section CSS *****/
+.main-section{
+    height: 100vh;
+    padding: 30px 0;
+    padding-left: 50px;
+    align-items: stretch;
+    display: flex;
+    justify-content: space-between;
+}
+
+.main-section .first-content{
+    width: 78%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    padding: 20px;
+}
+.box-div1{
+    display: flex;
+    align-items: flex-start;
+    width: 32%;
+    height: 280px;
+    border: 1px solid green;
+    margin-bottom: 50px;
+}
+.box-div1 span{
+    padding: 20px 10px;
+    color: #fff;
+    background: red;
+    display: inline-block;
+}
+.box-div1.box2{
+    align-items: center;
+    justify-content: center;
+
+}
+.box-div1.box3{
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+.box-div1.box4{
+    width: 28%;
+    height: 200px;
+    padding: 30px;
+    align-items: center;
+}
+.box-div1.box5{
+    width: 38%;
+    height: 200px;
+    padding: 30px;
+    align-items: center;
+}
+.box-div1.box6{
+    width: 28%;
+    height: 200px;
+    padding: 30px;
+}
+.box-div1.box7 {
+    display: flex;
+    justify-content: space-evenly;
+    height: 200px;
+}
+.box-div1.box7 span {
+    padding: 12px 15px;
+    margin-top: 30px;
+}
+.box-div1.box8{
+    height: 200px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    align-content: center;
+    justify-content: flex-start;      
+}
+.box-div1.box8 span{
+    padding: 12px 15px;
+    border: 1px solid green;
+}
+.box-div1.box9{
+    height: 200px;
+    display: flex;
+    justify-content: space-around;
+    padding: 30px;
+}
+.box-div1.box9 span{
+    padding: 15px 20px;
+    border: 1px solid green;
+}
+.box-div1.box9 :nth-child(1){
+    align-self: flex-start;
+}
+.box-div1.box9 :nth-child(2){
+    align-self: center;
+}
+.box-div1.box9 :nth-child(3){
+    align-self: flex-end;
+}
+/**** End Main Section CSS *****/
+
+
+/* Start Side Bar CSS */
+.main-section .side-bar{
+    border-left: 2px solid red;
+    width: 20%;
+    background: #D2D2D2;
+    padding: 20px;
+}
+.side-bar .sidebar-content h5{
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+.side-bar .sidebar-content img{
+    width: 100%;
+}
+.side-bar .sidebar-content p{
+    margin-top: 10px;
+}
+
+/* Start Side Bar CSS */
+
+
+/* Start Footer Section */
+footer{
+    margin-top: 20px;
+    background-color: black;
+    padding: 20px 400px;
+}
+footer ul{
+    display: flex;
+    justify-content: space-around;    
+}
+footer ul li{
+    position: relative;
+    list-style: none;
+}
+footer ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    display: inline-block;
+    padding: 0 10px;     
+}
+footer ul li::after{
+    content: "";
+    width: 100%;
+    height: 1.5px;
+    top: 125%;
+    left: 0;
+    background: #ddd;
+    position: absolute;
+}
+/* End Footer Section */
+
+
+
+
